@@ -1,0 +1,21 @@
+[
+  {
+    "organization": "node ninja",
+    "createdAt": "2020-08-12T19:04:55.455Z",
+    "updatedAt": "2020-08-12T19:04:55.455Z",
+    "products": [
+      "developers",
+      "pizza"
+    ],
+    "marketValue": "95%",
+    "address": "sangotedoee",
+    "ceo": "cn",
+    "country": "Naija",
+    "noOfEmployees": 5,
+    "employees": [
+      "john bond",
+      "jack chan"
+    ],
+    "id": 1
+  }
+]
