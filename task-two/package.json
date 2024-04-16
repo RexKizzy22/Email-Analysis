@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Analyse and cleanup emails",
   "main": "lib/index.js",
-  "author": "Bond<info@decagon.dev>",
+  "author": "kizito <kizitoinegbenose@gmail.com>",
   "license": "MIT",
   "scripts": {
     "clean": "npx rimraf ./lib/",

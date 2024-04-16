@@ -1,14 +1,14 @@
-import FileTree from './fileTree';
+import FileTree from "./fileTree";
 
 export function createFileTree(input) {
   const fileTree = new FileTree();
 
   const copy = JSON.parse(JSON.stringify(input));
-  const wellOrdered = copy.splice(0,1);
+  const wellOrdered = copy.splice(0, 1);
   let parentId = wellOrdered[0].id;
 
   for (let _ of copy) {
-    const childNode = copy.find(el => el.parentId === parentId);
+    const childNode = copy.find((el) => el.parentId === parentId);
     wellOrdered.push(childNode);
     parentId = childNode.id;
   }
