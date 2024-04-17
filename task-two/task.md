@@ -1,4 +1,4 @@
-Dear Decadev,
+Hi there,
 
 We have a list of email addresses obtained from various channels for marketing and we're trying to determine the best channel to send these emails.
 
@@ -13,15 +13,15 @@ It would be fantastic if you can also validate the email address to determine if
 For example,
 
 ```
-info@decagon.com.ng
+info@depodrop.com.ng
 ```
 
-is a valid email address but the domain `decagon.com.ng` does not accept emails, so any email sent to it would bounce.
+is a valid email address but the domain `depodrop.com.ng` does not accept emails, so any email sent to it would bounce.
 
 This is because the domain has no valid Mail Exchanger (MX) record listed in its DNS.
 
 ```bash
-dig MX decagon.com.ng +short +all
+dig MX depodrop.com.ng +short +all
 ```
 
 You can check the `MX` record https://dnslookup.online/
